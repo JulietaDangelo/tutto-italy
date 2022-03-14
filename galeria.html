@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;700&family=Montserrat:wght@100;300;400;600&family=Noto+Sans:wght@400;700&family=Oswald:wght@200;300;500&family=Playfair+Display:wght@400;600&family=Poppins:wght@100;200;300;400;500;600&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/fdaf6fea2b.js" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
 
@@ -51,23 +53,38 @@
             <h2>Galería de Fotos</h2>
             <p>Conocé todo lo que podés descubrir viajando</p>
         </div>
-
+        <!-- Button/img trigger modal -->
         <div class="GaleriaImg">
-            <img class="img1" src="img/galeriaroma1.jpg" alt="Roma">
-            <img class="img2" src="img/galeriaroma2.jpg" alt="Roma">
-            <img class="img3" src="img/galeriaroma3.jpg" alt="Roma">
-            <img class="img4" src="img/galeriaflorencia1.jpg" alt="Florencia">
-            <img class="img5" src="img/galeriaflorencia2.jpg" alt="Florencia">
-            <img class="img6" src="img/galeriaflorencia3.jpg" alt="Florencia">
-            <img class="img7" src="img/galeriavenecia1.jpg" alt="Venecia">
-            <img class="img8" src="img/galeriavenecia2.jpg" alt="Venecia">
-            <img class="img9" src="img/galeriasicilia1.jpg" alt="Sicilia">
-            <img class="img10" src="img/galeriaamalfi2.jpg" alt="Amalfi">
-            <img class="img11" src="img/galeriaamalfi1.jpg" alt="Amalfi">
-            <img class="img12" src="img/galeriamilan1.jpg" alt="Milan">
+            <img type="button" class="btn btn-primary img1" data-bs-toggle="modal" data-bs-target="#exampleModal" src="img/galeriaroma1.jpg" alt="Roma">
+            <img type="button" class="btn btn-primary img2" data-bs-toggle="modal" data-bs-target="#exampleModal" src="img/galeriaroma2.jpg" alt="Roma">
+            <img type="button" class="btn btn-primary img3" data-bs-toggle="modal" data-bs-target="#exampleModal" src="img/galeriaroma3.jpg" alt="Roma">
+            <img type="button" class="btn btn-primary img4" data-bs-toggle="modal" data-bs-target="#exampleModal" src="img/galeriaflorencia1.jpg" alt="Florencia">
+            <img type="button" class="btn btn-primary img5" data-bs-toggle="modal" data-bs-target="#exampleModal" src="img/galeriaflorencia2.jpg" alt="Florencia">
+            <img type="button" class="btn btn-primary img6" data-bs-toggle="modal" data-bs-target="#exampleModal" src="img/galeriaflorencia3.jpg" alt="Florencia">
+            <img type="button" class="btn btn-primary img7" data-bs-toggle="modal" data-bs-target="#exampleModal" src="img/galeriavenecia1.jpg" alt="Venecia">
+            <img type="button" class="btn btn-primary img8" data-bs-toggle="modal" data-bs-target="#exampleModal" src="img/galeriavenecia2.jpg" alt="Venecia">
+            <img type="button" class="btn btn-primary img9" data-bs-toggle="modal" data-bs-target="#exampleModal" src="img/galeriasicilia1.jpg" alt="Sicilia">
+            <img type="button" class="btn btn-primary img10" data-bs-toggle="modal" data-bs-target="#exampleModal" src="img/galeriaamalfi2.jpg" alt="Amalfi">
+            <img type="button" class="btn btn-primary img11" data-bs-toggle="modal" data-bs-target="#exampleModal" src="img/galeriaamalfi1.jpg" alt="Amalfi">
+            <img type="button" class="btn btn-primary img12" data-bs-toggle="modal" data-bs-target="#exampleModal" src="img/galeriamilan1.jpg" alt="Milan">
         </div>
 
+         <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                   <div class="modal-body img1">
+                     Elija uno de nuestros paquetes para conocer todos estos hermosos lugares!
+                    </div>
+                    <div class="modal-footer">
+                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
+
 
 
 </main>
@@ -87,6 +104,8 @@
 </footer>
 
 
-    
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </body>
 </html>
