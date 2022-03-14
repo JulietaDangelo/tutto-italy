@@ -95,6 +95,7 @@ nav {
 .InicioText h1 {
     color: #fff;
     font-size: 70px;
+    font-weight: 700;
 }
 
 .InicioText p {
@@ -120,6 +121,7 @@ nav {
 
 .DestinoText h2 {
     font-size: 40px;
+    font-weight: 700;
 }
 
 .DestinoText p {
@@ -165,7 +167,7 @@ nav {
 
 
 .Review {
-    width: 80%;
+    width: 100%;
     margin: auto;
     margin-top: 80px;
     margin-bottom: 60px;
@@ -174,12 +176,18 @@ nav {
 
 .ReviewText h2 {
     font-size: 40px;
+    font-weight: 700;
 }
 
 .ReviewPersonas {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.ReviewPersonas h3 {
+    font-weight: 700;
+    font-size: 20px;
 }
 
 .Review1, .Review2 {
@@ -473,6 +481,7 @@ PAQUETES.HTML
 
 .PaqueteText h2 {
     font-size: 50px;
+    font-weight: 700;
 }
 
 .PaqueteText p {
@@ -514,6 +523,7 @@ PAQUETES.HTML
 
 .PaqueteViaje .PaqueteInfo h3 {
     font-size: 20px;
+    font-weight: 700;
 }
 
 .PaqueteViaje .PaqueteInfo p {
@@ -565,6 +575,7 @@ PAQUETES.HTML
     position: relative;
     top: 30%;
     font-size: 35px;
+    font-weight: 700;
 }
 
 .ConsultaText p {

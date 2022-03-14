@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;700&family=Montserrat:wght@100;300;400;600&family=Noto+Sans:wght@400;700&family=Oswald:wght@200;300;500&family=Playfair+Display:wght@400;600&family=Poppins:wght@100;200;300;400;500;600&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/fdaf6fea2b.js" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
 
@@ -64,61 +66,72 @@
         <div class="DestinoCiudad">
             <div class="DestinoCiudadRoma DestinoCiudad--text">
                 <img src="img/destinoroma.jpg" alt="Roma">
-                <p>ROMA</p>
+                <p class="mb-0">ROMA</p>
             </div>
             <div class="DestinoCiudadFlorencia DestinoCiudad--text">
                 <img src="img/destinoflorencia.jpg" alt="Florencia">
-                <p>FLORENCIA</p>
+                <p class="mb-0">FLORENCIA</p>
             </div>
             <div class="DestinoCiudadVenecia DestinoCiudad--text">
                 <img src="img/destinovenecia.jpg" alt="Venecia">
-                <p>VENECIA</p>
+                <p class="mb-0">VENECIA</p>
             </div>
             <div class="DestinoCiudadSicilia DestinoCiudad--text">
                 <img src="img/destinosicilia.jpg" alt="Sicilia">
-                <p>SICILIA</p>
+                <p class="mb-0">SICILIA</p>
             </div>
             <div class="DestinoCiudadAmalfi DestinoCiudad--text">
                 <img src="img/destinoamalfi.jpg" alt="Amalfi">
-                <p>AMALFI</p>
+                <p class="mb-0">AMALFI</p>
             </div>
             <div class="DestinoCiudadMilan DestinoCiudad--text">
                 <img src="img/destinomilan.jpeg" alt="Milan">
-                <p>MILAN</p>
+                <p class="mb-0">MILAN</p>
             </div>
         </div>
     </section>
 
 
     <!-- REVIEWS -->
+ 
 
     <section class="Review">
-        <div class="ReviewText">
-            <h2>Reviews</h2>
-        </div>
-        <div class="ReviewPersonas">
-            <div class="Review1">
-                <img src="img/review1.jpg" alt="Review 1">
-                <h3>El mejor viaje de mi vida</h3>
-                <p>Excelente todo! Los guías te llevan a pasear por lugares inimaginables y la atención es espectacular. Volvería a viajar</p>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
+    <div class="ReviewText">
+        <h2>Reviews</h2>
+    </div>
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="ReviewPersonas">
+                <div class="Review1">
+                    <img src="img/review1.jpg" alt="Review 1">
+                    <h3>El mejor viaje de mi vida</h3>
+                    <p>Excelente todo! Los guías te llevan a pasear por lugares inimaginables y la atención es espectacular. Volvería a viajar</p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
             </div>
-            <div class="Review2">
-                <img src="img/review2.jpg" alt="Review 2">
-                <h3>Super recomendado!</h3>
-                <p>Fuimos en febrero de 2021 y disfrutamos mucho de Roma. La gastronomía es increíble y los tours son hermosos.</p>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star-half-stroke"></i>
-            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="ReviewPersonas">
+                <div class="Review2">
+                    <img src="img/review2.jpg" alt="Review 2">
+                    <h3>Super recomendado!</h3>
+                    <p>Fuimos en febrero de 2021 y disfrutamos mucho de Roma. La gastronomía es increíble y los tours son hermosos.</p>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+          </div>
         </div>
-    </section>     
+      </div>
+    </section>  
+
 
 </main>
 
@@ -136,6 +149,8 @@
     </div>
 </footer>
 
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>
 </html>
