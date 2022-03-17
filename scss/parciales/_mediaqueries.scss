@@ -1,0 +1,337 @@
+/***** MEDIA QUERIES - INDEX *****/
+
+  /* TABLET */
+
+  @media screen and (max-width: 1024px) {
+
+    /* NAV BAR */
+    .NavBar ul li a {
+      padding: 0 8px;
+      font-size: 14px; }
+
+    /* INICIO */
+    .InicioText h1 {
+      font-size: 60px; }
+
+    .InicioText p {
+      font-size: 25px;
+      margin-top: 20px; }
+
+      /* DESTINOS */
+    .DestinoText h2 {
+      font-size: 30px; }
+
+    .DestinoText p {
+      font-size: 17px; }
+
+    .DestinoCiudad {
+      display: grid;
+      grid-template-columns: repeat(2, 40%);
+      grid-template-rows: repeat(3, 1fr); }
+
+    .DestinoCiudad p {
+      font-size: 25px; }
+
+    /* REVIEWS */
+    .ReviewText h2 {
+      font-size: 30px; }
+
+    .ReviewPersonas {
+      flex-direction: column;
+      align-items: center; }
+
+    .Review1, .Review2 {
+      width: 80%; }
+
+    /* FOOTER */
+    .FooterLogo {
+      font-size: 18px; }
+
+    .FooterLogo i {
+      font-size: 18px; }
+
+    .FooterCopy {
+      color: #fff;
+      font-size: 14px;
+      display: inline; } }
+  
+
+  /* MOBILE */
+
+  @media screen and (max-width: 600px) {
+
+    /* MENU HAMBURGUESA */
+
+    .BotonHamburguesa {
+      display: inline-block;
+      color: #fff;
+      font-size: 30px;
+      padding: 10px 10px 0 10px; }
+
+    .BotonHamburguesa i {
+      color: #fff; }
+
+    .NavBar ul {
+      background-color: rgba(0, 0, 0, 0.9);
+      width: 60%;
+      max-width: 400px;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      transform: translateX(-100%);
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      padding: 20px;
+      transition: .5s;
+      z-index: 100;
+      margin: 0; }
+
+    .NavBar ul li a {
+      font-size: 17px; }
+
+    #sidebar:target {
+      transform: translateX(0); }
+
+    .LogoHamburguesa {
+      margin-right: 20px; }
+
+    .BotonCerrar {
+      display: block;
+      color: #fff;
+      font-size: 25px;
+      margin-right: 15px; }
+
+    nav a {
+      text-decoration: none; }
+
+    /* FIN MENU HAMBURGUESA */
+
+      /* INICIO */    
+    .InicioText h1 {
+      font-size: 40px;
+      text-shadow: 0px 0px 3px #000; }
+
+    .InicioText p {
+      font-size: 18px;
+      margin: 20px;
+      text-shadow: 0px 0px 3px #000; }
+
+      /* DESTINOS */
+
+    .DestinoText p {
+      font-size: 15px; }
+
+    .DestinoCiudad {
+      display: grid;
+      grid-template-columns: 80%;
+      grid-template-rows: repeat(6, 1fr); }
+
+    .DestinoCiudad p {
+      font-size: 35px; }
+
+    /* REVIEWS */
+
+    .Review1, .Review2 {
+      width: 100%; }
+
+    /* FOOTER */
+
+    footer {
+      flex-direction: column; }
+
+    .fa-brands {
+      margin: 0 20px;
+      font-size: 30px; } }
+  
+  
+  /***** MEDIA QUERIES - PAQUETES *****/
+
+  /* TABLET */
+  @media screen and (max-width: 1024px) {
+
+    /* PAQUETES */
+
+    .Paquete {
+      width: 70%; }
+
+    .PaqueteGrid {
+      grid-template-columns: 90%;
+      grid-template-rows: repeat(6, 1fr); }
+
+    /* CONSULTAS */
+    .Consulta {
+      width: 90%; }
+
+    .ConsultaText {
+      margin: 50px 0; }
+
+    .ConsultaText h3 {
+      font-size: 30px; }
+
+    .ConsultaText p {
+      font-size: 15px; } }
+  
+  /* MOBILE */
+
+  @media screen and (max-width: 600px) {
+
+    /* MENU HAMBURGUESA */
+
+    .BotonHamburguesa {
+      color: #000; }
+
+    .NavBar ul {
+      background-color: rgba(0, 0, 0, 0.9);
+      width: 60%;
+      max-width: 400px;
+      height: 100vh;
+      position: fixed;
+      top: 0;
+      left: 0;
+      transform: translateX(-100%);
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      padding: 20px;
+      transition: .5s;
+      z-index: 100;
+      margin: 0; }
+
+    .NavBar ul li a {
+      font-size: 17px;
+      color: #fff; }
+
+    #sidebar:target {
+      transform: translateX(0); }
+
+    .LogoHamburguesa {
+      margin-right: 20px; }
+
+    .fa-xmark {
+      display: block;
+      color: #fff;
+      font-size: 25px;
+      margin-right: 15px; }
+
+    nav a {
+      text-decoration: none; }
+
+    /* FIN MENU HAMBURGUESA */
+
+    /* PAQUETES */
+    .Paquete {
+      width: 100%; }
+
+    .PaqueteText h2 {
+      font-size: 40px; }
+
+    .PaqueteText p {
+      font-size: 18px;
+      margin: 20px; }
+
+    /* CONSULTAS */
+    .ConsultaText h3 {
+      font-size: 25px; }
+
+    .ConsultaText p {
+      font-size: 13px; } }
+  
+ 
+  /***** MEDIA QUERIES - SERVICIOS *****/
+
+  /* TABLET */
+
+  @media screen and (max-width: 1024px) {
+
+    .ServiciosFlex {
+      flex-wrap: wrap;
+      justify-content: center; }
+
+    .ServiciosInfo {
+      width: 60%; }
+
+    .ServiciosInfo img {
+      width: 90%; } }
+  
+  /* MOBILE */
+
+  @media screen and (max-width: 600px) {
+
+    .ServiciosText h2 {
+      font-size: 40px; }
+
+    .ServiciosText p {
+      font-size: 18px;
+      margin: 20px; }
+
+    .ServiciosInfo {
+      width: 100%; } }
+  
+  
+  
+  /***** MEDIA QUERIES - GALERIA *****/
+
+  /* TABLET */
+
+  @media screen and (max-width: 1024px) {
+    .Galeria {
+      width: 100%; }
+
+    .GaleriaImg {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 15px;
+      margin: 40px; } }
+  
+  /* MOBILE */
+
+  @media screen and (max-width: 600px) {
+
+    .GaleriaImg {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+      margin: 10px; }
+
+    .GaleriaText h2 {
+      font-size: 40px; }
+
+    .GaleriaText p {
+      font-size: 18px;
+      margin: 20px; } }
+  
+
+  /***** MEDIA QUERIES - CONTACTO *****/
+
+  /* TABLET */
+
+  @media screen and (max-width: 1024px) {
+
+    .Formulario {
+      width: 60%;
+      background-repeat: no-repeat;
+      background-size: 100%; } }
+  
+  /* MOBILE */
+
+  @media screen and (max-width: 600px) {
+
+    .Contacto h2 {
+      font-size: 40px; }
+
+    .Contacto p {
+      font-size: 18px;
+      margin: 20px; }
+
+    .Formulario {
+      width: 90%; }
+
+    .Formulario .fa-solid {
+      font-size: 90px; }
+
+    form input {
+      width: 80%; }
+      
+    form textarea {
+      width: 80%; } }
+  

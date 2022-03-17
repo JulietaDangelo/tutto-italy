@@ -1,0 +1,238 @@
+
+  /*=================================================================================================================
+  INDEX.HTML
+  ==================================================================================================================*/
+
+  /* ---- HEADER ---- */
+
+  .NavBar {
+    width: 100%;
+    position: absolute;
+    overflow: hidden; }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  
+  .Logo {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    position: relative;
+    top: 17px;
+    left: 30px; }
+  
+  .Logo p i {
+    color: #E30000;
+    font-size: 22px; }
+  
+  .avion {
+    position: relative;
+    animation-name: avion-desplazarse;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 1s;
+    opacity: 0;
+    animation-fill-mode: forwards; }
+  
+  @keyframes avion-desplazarse {
+    0% {
+      left: -100px;
+      opacity: .2; }
+    50% {
+      opacity: 0.8; }
+    100% {
+      left: 0;
+      opacity: 1; } }
+  
+  .NavBar ul {
+    margin: 25px 0 0 0;
+    flex-grow: 1;
+    text-align: right;
+    justify-items: space-evenly; }
+  
+  .NavBar ul li {
+    display: inline-block; }
+  
+  .NavBar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 25px; }
+  
+  /* ---- MENU HAMBURGUESA ---- */
+
+  .BotonHamburguesa {
+    display: none; }
+  
+  .BotonCerrar {
+    display: none; }
+  
+  /* ---- INICIO ---- */
+
+  main {
+    min-height: 100%; }
+  
+  .Inicio {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), transparent), url(https://cdn.getyourguide.com/img/location/535e42f7ac585.jpeg/88.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover; }
+  
+  .InicioText {
+    position: relative;
+    top: 40%;
+    text-align: center;
+    animation-name: texto-aparicion;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-delay: .5s;
+    animation-fill-mode: forwards;
+    opacity: 0; }
+  
+  @keyframes texto-aparicion {
+    from {
+      opacity: 0; }
+    to {
+      opacity: 1; } }
+  
+  .InicioText {
+    position: relative;
+    top: 40%;
+    text-align: center; }
+  
+  .InicioText h1 {
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700; }
+  
+  .InicioText p {
+    color: #fff;
+    font-size: 30px;
+    margin-top: 20px; }
+  
+  /* ---- DESTINOS ---- */
+
+  .Destinos {
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+    text-align: center; }
+  
+  .DestinoText h2 {
+    font-size: 40px;
+    font-weight: 700; }
+  
+  .DestinoText p {
+    margin-bottom: 50px;
+    font-size: 20px; }
+  
+  .DestinoCiudad {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 2;
+    justify-content: space-evenly;
+    grid-row-gap: 30px; }
+  
+  .DestinoCiudad img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(107, 77, 77, 0.678); }
+  
+  .DestinoCiudad p {
+    font-size: 30px;
+    text-shadow: 0px 0px 8px #000;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: #fff; }
+  
+  .DestinoCiudad--text {
+    position: relative; }
+  
+  /* ---- REVIEWS ---- */
+
+  .Review {
+    width: 100%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    text-align: center; }
+  
+  .ReviewText h2 {
+    font-size: 40px;
+    font-weight: 700; }
+  
+  .ReviewPersonas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; }
+  
+  .ReviewPersonas h3 {
+    font-weight: 700;
+    font-size: 20px; }
+  
+  .Review1, .Review2 {
+    width: 45%;
+    background-color: #FFF7F3;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 50px 20px;
+    align-items: center; }
+  
+  .ReviewPersonas img {
+    width: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 5px #E30000; }
+  
+  .ReviewPersonas p {
+    font-size: 17px;
+    line-height: 1.5;
+    margin: 5px; }
+  
+  .ReviewPersonas .fa-solid {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #E30000; }
+  
+  /* ---- FOOTER ---- */
+  
+  footer {
+    width: 100%;
+    height: 90px;
+    background-color: #BEA6A0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; }
+  
+  .FooterText {
+    flex-grow: 0.2; }
+  
+  .FooterLogo {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    display: inline; }
+  
+  .FooterLogo i {
+    color: #E30000;
+    font-size: 20px; }
+  
+  .FooterCopy {
+    color: #fff;
+    font-size: 16px;
+    display: inline; }
+  
+  .FooterSocialMedia {
+    flex-grow: 0.2; }
+  
+  .fa-brands {
+    margin-left: 30px;
+    color: #fff;
+    font-size: 25px; }
