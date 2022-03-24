@@ -2,20 +2,33 @@
   GALERIA.HTML
   ==================================================================================================================*/
   
+  /* MIXIN */
+  @mixin fonts($font-size, $font-weight) {
+    font-size: $font-size;
+    font-weight: $font-weight;
+  }
+
+  /* MAP-GET() */
+  $sizes: (
+    width: 100%,
+    height: 100%,
+    color: #fff
+  );
+
+
   .Galeria {
-    width: 95%;
+    width: map-get($sizes, width);
     margin: auto;
     text-align: center; }
   
   .GaleriaText {
     margin-bottom: 50px; }
   
-  .GaleriaText h2 {
-    font-size: 50px;
-    font-weight: 700; }
+  .GaleriaText h1 {
+    @include fonts(50px,700); }
   
   .GaleriaText p {
-    font-size: 22px; }
+    @include fonts(22px,500); }
   
   .GaleriaImg {
     display: grid;
@@ -26,13 +39,13 @@
     margin: 50px; }
   
   .GaleriaImg img {
-    width: 100%;
-    height: 100%;
+    width: map-get($sizes, width);
+    height: map-get($sizes, height);
     object-fit: cover; }
   
   .btn-primary {
-    background-color: #fff !important;
-    border-color: #fff !important; }
+    background-color: map-get($sizes, color) !important;
+    border-color: map-get($sizes, color) !important; }
   
   .img1 {
     grid-row: span 4;
@@ -40,44 +53,35 @@
   
   .img2 {
     grid-row: span 3;
-    grid-column: span 1; }
+    grid-column: span 1; } 
   
   .img3 {
     grid-row: span 5;
     grid-column: span 1; }
   
   .img4 {
-    grid-row: span 3;
-    grid-column: span 1; }
+    @extend .img2; }
   
   .img5 {
-    grid-row: span 4;
-    grid-column: span 1; }
+    @extend .img1; } 
   
   .img6 {
-    grid-row: span 3;
-    grid-column: span 1; }
+    @extend .img2; }
   
   .img7 {
-    grid-row: span 5;
-    grid-column: span 1; }
+    @extend .img3; }
   
   .img8 {
-    grid-row: span 4;
-    grid-column: span 1; }
+    @extend .img1; } 
   
   .img9 {
-    grid-row: span 4;
-    grid-column: span 1; }
+    @extend .img1; } 
   
   .img10 {
-    grid-row: span 5;
-    grid-column: span 1; }
+    @extend .img3; }
   
   .img11 {
-    grid-row: span 4;
-    grid-column: span 1; }
+    @extend .img1; } 
   
   .img12 {
-    grid-row: span 4;
-    grid-column: span 1; }
+    @extend .img1; } 

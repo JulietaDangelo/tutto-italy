@@ -260,7 +260,7 @@ footer {
   margin: auto;
   text-align: center; }
 
-.PaqueteText h2 {
+.PaqueteText h1 {
   font-size: 50px;
   font-weight: 700; }
 
@@ -295,7 +295,7 @@ footer {
   font-size: 23px;
   color: #BEA6A0; }
 
-.PaqueteViaje .PaqueteInfo h3 {
+.PaqueteViaje .PaqueteInfo h2 {
   font-size: 20px;
   font-weight: 700; }
 
@@ -369,7 +369,7 @@ footer {
   margin: auto;
   margin-bottom: 50px; }
 
-.ServiciosText h2 {
+.ServiciosText h1 {
   font-size: 50px;
   font-weight: 700; }
 
@@ -386,7 +386,7 @@ footer {
   width: 30%;
   overflow: hidden;
   margin-top: 30px; }
-  .ServiciosInfo h3 {
+  .ServiciosInfo h2 {
     font-size: 25px;
     color: #B3867B;
     font-weight: 700; }
@@ -411,20 +411,23 @@ footer {
 /*=================================================================================================================
   GALERIA.HTML
   ==================================================================================================================*/
+/* MIXIN */
+/* MAP-GET() */
 .Galeria {
-  width: 95%;
+  width: 100%;
   margin: auto;
   text-align: center; }
 
 .GaleriaText {
   margin-bottom: 50px; }
 
-.GaleriaText h2 {
+.GaleriaText h1 {
   font-size: 50px;
   font-weight: 700; }
 
 .GaleriaText p {
-  font-size: 22px; }
+  font-size: 22px;
+  font-weight: 500; }
 
 .GaleriaImg {
   display: grid;
@@ -443,52 +446,16 @@ footer {
   background-color: #fff !important;
   border-color: #fff !important; }
 
-.img1 {
+.img1, .img5, .img8, .img9, .img11, .img12 {
   grid-row: span 4;
   grid-column: span 1; }
 
-.img2 {
+.img2, .img4, .img6 {
   grid-row: span 3;
   grid-column: span 1; }
 
-.img3 {
+.img3, .img7, .img10 {
   grid-row: span 5;
-  grid-column: span 1; }
-
-.img4 {
-  grid-row: span 3;
-  grid-column: span 1; }
-
-.img5 {
-  grid-row: span 4;
-  grid-column: span 1; }
-
-.img6 {
-  grid-row: span 3;
-  grid-column: span 1; }
-
-.img7 {
-  grid-row: span 5;
-  grid-column: span 1; }
-
-.img8 {
-  grid-row: span 4;
-  grid-column: span 1; }
-
-.img9 {
-  grid-row: span 4;
-  grid-column: span 1; }
-
-.img10 {
-  grid-row: span 5;
-  grid-column: span 1; }
-
-.img11 {
-  grid-row: span 4;
-  grid-column: span 1; }
-
-.img12 {
-  grid-row: span 4;
   grid-column: span 1; }
 
 /*=================================================================================================================
@@ -500,7 +467,7 @@ footer {
   text-align: center;
   margin-bottom: 50px; }
 
-.Contacto h2 {
+.Contacto h1 {
   font-size: 50px; }
 
 .Contacto p {

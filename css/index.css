@@ -529,7 +529,7 @@ PAQUETES.HTML
     text-align: center;
 }
 
-.PaqueteText h2 {
+.PaqueteText h1 {
     font-size: 50px;
     font-weight: 700;
 }
@@ -571,7 +571,7 @@ PAQUETES.HTML
     color: #BEA6A0;
 }
 
-.PaqueteViaje .PaqueteInfo h3 {
+.PaqueteViaje .PaqueteInfo h2 {
     font-size: 20px;
     font-weight: 700;
 }
@@ -782,7 +782,7 @@ SERVICIOS.HTML
     margin-bottom: 50px;
 }
 
-.ServiciosText h2 {
+.ServiciosText h1 {
     font-size: 50px;
     font-weight: 700;
 }
@@ -804,7 +804,7 @@ SERVICIOS.HTML
     margin-top: 30px;
 }
 
-.ServiciosInfo h3 {
+.ServiciosInfo h2 {
     font-size: 25px;
     color: #B3867B;
     font-weight: 700;
@@ -898,7 +898,7 @@ GALERIA.HTML
     margin-bottom: 50px;
 }
 
-.GaleriaText h2 {
+.GaleriaText h1 {
     font-size: 50px;
     font-weight: 700;
 }
@@ -1047,7 +1047,7 @@ CONTACTO.HTML
     margin-bottom: 50px;
 }
 
-.Contacto h2 {
+.Contacto h1 {
     font-size: 50px;
 }
 
