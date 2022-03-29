@@ -752,6 +752,8 @@ form button {
   .PaqueteText p {
     font-size: 18px;
     margin: 20px; }
+  .PaqueteViaje {
+    height: 380px; }
   /* CONSULTAS */
   .ConsultaText h3 {
     margin: 0 10px;
