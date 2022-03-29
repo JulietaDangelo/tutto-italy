@@ -19,7 +19,7 @@
 
       /* DESTINOS */
     .DestinoText h2 {
-      font-size: 30px; }
+      font-size: 40px; }
 
     .DestinoText p {
       font-size: 17px; }
@@ -30,7 +30,7 @@
       grid-template-rows: repeat(3, 1fr); }
 
     .DestinoCiudad p {
-      font-size: 25px; }
+      font-size: 20px; }
 
     /* REVIEWS */
     .ReviewText h2 {
@@ -110,11 +110,11 @@
 
       /* INICIO */    
     .InicioText h1 {
-      font-size: 40px;
+      font-size: 50px;
       text-shadow: 0px 0px 3px #000; }
 
     .InicioText p {
-      font-size: 18px;
+      font-size: 20px;
       margin: 20px;
       text-shadow: 0px 0px 3px #000; }
 
@@ -129,12 +129,12 @@
       grid-template-rows: repeat(6, 1fr); }
 
     .DestinoCiudad p {
-      font-size: 35px; }
+      font-size: 22px; }
 
     /* REVIEWS */
 
     .Review1, .Review2 {
-      width: 100%; }
+      width: 90%; }
 
     /* FOOTER */
 
@@ -224,7 +224,7 @@
     .Paquete {
       width: 100%; }
 
-    .PaqueteText h2 {
+    .PaqueteText h1 {
       font-size: 40px; }
 
     .PaqueteText p {
@@ -233,9 +233,11 @@
 
     /* CONSULTAS */
     .ConsultaText h3 {
+      margin: 0 10px;
       font-size: 25px; }
 
     .ConsultaText p {
+      margin: 0 20px;
       font-size: 13px; } }
   
  
@@ -259,7 +261,7 @@
 
   @media screen and (max-width: 600px) {
 
-    .ServiciosText h2 {
+    .ServiciosText h1 {
       font-size: 40px; }
 
     .ServiciosText p {
@@ -293,7 +295,7 @@
       grid-gap: 10px;
       margin: 10px; }
 
-    .GaleriaText h2 {
+    .GaleriaText h1 {
       font-size: 40px; }
 
     .GaleriaText p {
@@ -316,7 +318,7 @@
 
   @media screen and (max-width: 600px) {
 
-    .Contacto h2 {
+    .Contacto h1 {
       font-size: 40px; }
 
     .Contacto p {

@@ -36,52 +36,58 @@
     grid-auto-rows: 100px;
     grid-auto-flow: dense;
     grid-gap: 5px;
-    margin: 50px; }
+    margin: 40px; }
+
+  .GaleriaImgSub {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; }
   
-  .GaleriaImg img {
+  .GaleriaImgSub img {
     width: map-get($sizes, width);
     height: map-get($sizes, height);
-    object-fit: cover; }
+    object-fit: cover;
+    transition: .5s; }
+
+  .GaleriaImgSub img:hover {
+    transform: scale(1.1); }
+
   
-  .btn-primary {
-    background-color: map-get($sizes, color) !important;
-    border-color: map-get($sizes, color) !important; }
-  
-  .img1 {
+  .IMG1 {
     grid-row: span 4;
-    grid-column: span 1; }
+    grid-column: span 1; } 
   
-  .img2 {
+  .IMG2 {
     grid-row: span 3;
     grid-column: span 1; } 
   
-  .img3 {
+  .IMG3 {
     grid-row: span 5;
     grid-column: span 1; }
   
-  .img4 {
-    @extend .img2; }
+  .IMG4 {
+    @extend .IMG1; } 
+
+  .IMG5 {
+    @extend .IMG1; } 
   
-  .img5 {
-    @extend .img1; } 
+  .IMG6 {
+    @extend .IMG1; }
   
-  .img6 {
-    @extend .img2; }
+  .IMG7 {
+    @extend .IMG3; }
   
-  .img7 {
-    @extend .img3; }
+  .IMG8 {
+    @extend .IMG3; } 
   
-  .img8 {
-    @extend .img1; } 
+  .IMG9 {
+    @extend .IMG1; } 
   
-  .img9 {
-    @extend .img1; } 
+  .IMG10 {
+    @extend .IMG1; }
   
-  .img10 {
-    @extend .img3; }
+  .IMG11 {
+    @extend .IMG1; } 
   
-  .img11 {
-    @extend .img1; } 
-  
-  .img12 {
-    @extend .img1; } 
+  .IMG12 {
+    @extend .IMG3; } 

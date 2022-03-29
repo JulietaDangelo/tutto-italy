@@ -113,9 +113,18 @@
     border-style: none;
     background-color: transparent;
     border: 1px solid #fff;
-    padding: 10px 15px;
-    cursor: pointer; }
+    padding: 10px 35px;
+    cursor: pointer; 
+    transition: .5s; }
   
+  .ConsultaText button:hover {
+    background-color: #fc3426;
+    border: 1px solid #fc3426;
+    } 
+
   .ConsultaText a {
     color: #fff;
     text-decoration: none; }
+
+  .ConsultaText a:hover{
+    color: #fff; }
