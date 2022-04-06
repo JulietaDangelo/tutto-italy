@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto | TUTTO ITALY</title>
+    <link type="image/png" sizes="16x16" rel="icon" href="../img/icons8-colosseum-16.png">
     <link rel="stylesheet" href="../css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,7 +26,7 @@
     <div class="NavBar">
         <nav>
             <div class="Logo">
-                <p>TUTTO <i class="fa-solid fa-plane"></i> ITALY </p>
+                <a href="../index.html"><p>TUTTO <i class="fa-solid fa-plane"></i> ITALY </p></a> 
             </div>
             <div class="LogoHamburguesa">
                 <a class="BotonHamburguesa" href="#sidebar"><i class="fa-solid fa-bars"></i></a>
@@ -62,17 +63,17 @@
                     </div>
                     <div class="FormularioNombre">
                         <label for="Nombre"> Nombre completo: </label>
-                        <input type="text" id="Nombre">
+                        <input type="text" id="Nombre" required>
                     </div>
                     <div class="FormularioMail">
                         <label for="Mail"> Mail: </label>
-                        <input type="email" id="Mail">
+                        <input type="email" id="Mail" required>
                     </div>
                     <div class="FormularioConsulta">
                         <label for="Nombre"> Consulta: </label>
-                        <textarea name="" id="Consulta" cols="50" rows="8"></textarea>
+                        <textarea name="" id="Consulta" cols="50" rows="8" required></textarea>
                         </div>
-                        <button type="button" class="btn btn-outline-light border-1 fs-6">Enviar</button>                
+                        <button type="submit">Enviar</button>                
                     </form>
         </div>
 

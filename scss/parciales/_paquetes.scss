@@ -76,7 +76,13 @@
     margin: 15px 0px;
     font-size: 16px;
     cursor: pointer;
-    color: #fff; }
+    color: #fff; 
+    transition: .5s;}
+
+  .PaqueteViaje .PaqueteInfo button:hover {
+    background-color: #B3867B;
+    border: none;
+  }
   
   /* ---- CONSULTA ---- */
   .Consulta {
